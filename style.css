@@ -8,6 +8,12 @@
   src: url('fonts/Hack-Bold.ttf');
 }
 
+:root{
+  --main-color: #fff;
+  --secondary-color:#ff0000;
+
+}
+
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -16,7 +22,7 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #ff0000; /* Red*/
+    background-color: #fc4d45; /* Red*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -26,7 +32,7 @@
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 2.5em;
     color: #fff;
     display: block;
     transition: 0.3s;
@@ -62,6 +68,12 @@
   background-color: #fff;
   font-family: Hack-Bold;
 }
+/*
+.jumbotron:hover{
+  font-size: 120%;
+  color: #fc4d45;
+}
+*/
 
 img{
   display: block;
@@ -83,9 +95,54 @@ p{
   font-size: 1.5em;
   padding: .5em;
   text-align: center;
-  font-family: Hack-Regular;
 }
 
 div{
-  font-family: Hack-Regular;
+  background-color: #fff;
+}
+
+h1{
+  font-family: Hack-Bold;
+  font-size: 3em;
+}
+
+#path1 {
+  fill: var(--secondary-color);
+}
+
+.div1{
+  background-color: #fc4d45;
+  color: #fff;
+}
+
+.div2{
+  background-color: #4C4646;
+  color: #fff;
+}
+
+body{
+  background-color: #fff;
+}
+
+#triangleColor1{
+  fill: #fff;
+}
+
+#triangleColor2{
+  fill: #fc4d45;
+}
+#triangleColor3{
+  fill: #4C4646;
+}
+
+.red{
+  background-color: #fc4d45;
+}
+
+.black{
+  background-color: #4C4646;
+}
+
+.white{
+  background-color: #fff;
 }
