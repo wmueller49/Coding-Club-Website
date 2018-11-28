@@ -22,7 +22,7 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #fc4d45; /* Red*/
+    background-color: #e32636;/* Red*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -32,7 +32,8 @@
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 2.5em;
+    font-size: 2em;
+    font-family: Hack-Bold;
     color: #fff;
     display: block;
     transition: 0.3s;
@@ -111,12 +112,12 @@ h1{
 }
 
 .div1{
-  background-color: #fc4d45;
+  background-color: #800000;
   color: #fff;
 }
 
 .div2{
-  background-color: #4C4646;
+  background-color:	#808080;
   color: #fff;
 }
 
@@ -129,20 +130,27 @@ body{
 }
 
 #triangleColor2{
-  fill: #fc4d45;
+  fill: #800000;
 }
 #triangleColor3{
-  fill: #4C4646;
+  fill:	#808080;
 }
 
-.red{
-  background-color: #fc4d45;
+.maroon{
+  background-color: #800000;
 }
 
-.black{
-  background-color: #4C4646;
+.gray{
+  background-color:	#808080;
 }
 
 .white{
   background-color: #fff;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
